@@ -26,7 +26,8 @@ socials = [
 
 menu = [
     { name = "/", url = "/", weight = 1 },
-    { name = "/blogs", url = "/blog", weight = 1 }
+    { name = "/blogs", url = "/blog", weight = 2 },
+    { name = "/tags", url = "/tags", weight = 3 }
 ]
 
 [markdown]
