@@ -8,8 +8,8 @@ tags = ["Reflection", "Plan"]
 
 ### Photo Booth (or something like that)
 
-如果我最美好的记忆注定如流沙一样从我掌中流走，那么请让我用这个小破站记住它；如果我美好的记忆还能延续，
-那请让我们再次看见这些故事时能相视一笑。
+如果我最美好的记忆注定如[流沙](https://www.youtube.com/watch?v=2xAmQ4y44eo&ab_channel=%E9%99%B6%E5%96%86DavidTao)一样从我掌中流走，那么请让我用这个小破站记住它；如果我美好的记忆还能延续，
+那请让我们再次看见这些故事时能[相视一笑](https://www.youtube.com/watch?v=KNZH-emehxA&ab_channel=ShaniaTwainVEVO)。
 
 ### Converting between Neorg knowledge base and this site
 
