@@ -36,24 +36,26 @@ at the sight of it, fearing the consequences of failure without even embarking
 on the task. Since I have never had formal diagnosis of it (perhaps not even trying
 hard enough to get it diagnosed even if I **did** have it), it could be best
 called **PADHD** (**P**retended A**ttention** D**eficit** H**yperactivity**
-D**isorder**). ***HAS RUINED MY LIFE***.
+D**isorder**) ***HAS RUINED MY LIFE***.
 
-As so this is where I want to start, a proclamation of war against my own
+And so, this is where I want to start, a proclamation of war against my own
 disease, and hopefully by the end of it, a piece of history that is well worth
-remembering. The future is uncertain in this one, nothing is known anymore.
-There's not going to be anyone who is going to comfort me, telling me that I've
-done my best so I can lie to myself that I did. By the end of it, I may be as
-broke and broken as I was before, never to chase back what's already gone. But
-that's not the point. The point is that I do end up survive the mental
-detriments of PADHD, and by the end of it, become a more trustworthy person
-than I was before.
+remembering. I cannot assume that there's someone in the world who is going to
+bear with all my inadequacies (and frankly, no one should. My own faults for
+many years, comes with their own price). There's not going to be anyone who is
+going to comfort me, and tell me that I've done my best so I can lie to myself
+that I did. By the end of it, I may be as broke and broken as I am right now,
+never to get back what's already lost. But _that's not the point_. The point is
+that I _will_ survive the mental detriments of PADHD, and by the end of it,
+become a more _trustworthy, reliable_ person than I was before.
 
 ## What this blog is going to be
 
 The purpose of this blog is to say the least, complicated (like my current mess
 itself). It is on one hand a project on its own, a good motivating reason for
-many, many interesting expansions that finally gets my hands on some practical
-coding, a good reason for me to ***want to code*** for a truly good reason.
+[many, many interesting expansions](../backlog) that finally gets my hands on
+some practical coding, a good reason for me to ***want to code*** for a truly
+good reason.
 
 On the other hand, it is a place where I force myself to commit to things, one
 at a time. It is a place for me to learn about myself, how I work and how I can
