@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">This is a blog made with Zola (and someone's 💔 → ❤️)</h1>
+
+<p>
+    Welcome to a totally unorganized place on the far corners of the internet.
+</p>
+
+<p><a href="{{ get_url(path='@/blog/_index.md') }}">Blog Posts</a></p>
+{% endblock content %}

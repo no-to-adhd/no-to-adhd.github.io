@@ -1,0 +1,3 @@
+[submodule "no-to-adhd/themes/apollo"]
+	path = no-to-adhd/themes/apollo
+	url = https://github.com/not-matthias/apollo
