@@ -3,7 +3,7 @@ title = "Plans for this Site"
 date = 2025-01-26
 
 [taxonomies]
-tags = ["Reflection", "Plan"]
+tags = ["Reflection", "Plan", "Meta"]
 +++
 
 ### Photo Booth (or something like that)
@@ -13,6 +13,11 @@ tags = ["Reflection", "Plan"]
 * [ ] Host the images/videos/musics on external storage.
 * [ ] Add a password protected photo booth.
 * [ ] ! Copyright issues.
+
+### Analytics
+Using analytics to track the visitors to the site
+and perhaps the readership of each blog post.
+* [x] ~The plan right now is to use [umami](https://umami.is/)~ ***DONE!!*** .
 
 ### Converting between Neorg knowledge base and this site
 
