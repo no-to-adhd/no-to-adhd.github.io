@@ -13,7 +13,6 @@ While I have enjoyed reading since while I was a kid, reading long academic pape
 ever since the need first emerged for me about 10 years ago, a source of misery. It has been
 hard for me to 
 
-
 ### The 3-Pass Method
 
 S. Keshav has famously proposed the
@@ -57,7 +56,7 @@ in part due to previous failed attempt to understand papers by read a paper
 through from cover to cover (which is admittedly not the recommended way to
 read a paper if you really want to understand it).
 
-This is where generative AI comes to the rescue. The [Zotero
+This is where generative AI comes in. The [Zotero
 GPT](https://github.com/MuiseDestiny/zotero-gpt) plugin for this well-loved
 reference manager has already provided a plethora of tools to help with paper
 summary, literature review and so on. A few more custom prompts could help
