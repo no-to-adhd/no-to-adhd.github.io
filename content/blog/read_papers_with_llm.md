@@ -1,6 +1,6 @@
 +++
 title = "Read Papers with LLM"
-date = 2025-01-27:T11:10
+date = 2025-01-27
 
 [taxonomies]
 tags = ["Reflection"]
