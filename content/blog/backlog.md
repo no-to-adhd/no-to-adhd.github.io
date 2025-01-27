@@ -28,6 +28,15 @@ tags = ["Reflection", "Plan"]
     * [ ] Daily pomodoro clock.
     * [ ] Weekly exercise log.
 
+### Link music to its own tags
+
+* [ ] Link music pieces up in their own list (i.e. a separate tag).
+
+## RSS Subscription
+
+* [ ] Hook it up with a RSS subscription service.
+    * Zola's [guide](https://www.getzola.org/documentation/templates/feeds/) on enabling RSS feeds
+
 ### Knowledge Base
 
 There's no reason why this site can't double as my personal knowldege base,

@@ -35,8 +35,8 @@ for long enough to my satisfaction. My mind wanders off anything difficult
 at the sight of it, fearing the consequences of failure without even embarking
 on the task. Since I have never had formal diagnosis of it (perhaps not even trying
 hard enough to get it diagnosed even if I **did** have it), it could be best
-called **PADHD** (**P**retended A**ttention** D**eficit** H**yperactivity**
-D**isorder**) ***HAS RUINED MY LIFE***.
+called **PADHD** (**P**retended **A**ttention **D**eficit **H**yperactivity
+**D**isorder) ***HAS RUINED MY LIFE***.
 
 And so, this is where I want to start, a proclamation of war against my own
 disease, and hopefully by the end of it, a piece of history that is well worth
