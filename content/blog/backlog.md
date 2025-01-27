@@ -4,6 +4,9 @@ date = 2025-01-26
 
 [taxonomies]
 tags = ["Reflection", "Plan", "Meta"]
+
+[extra]
+comment = true
 +++
 
 ### Photo Booth (or something like that)
