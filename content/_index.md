@@ -6,8 +6,12 @@ template = "homepage.html"
 Welcome to a totally unorganized place on the far corners of the internet. This is █'s secret base to
     combat his PADHD (**P**retended **A**ttention **D**eficit **H**yperactivity **D**isorder).
 
-### News
-Check out the new [journal](./logs) section! (Also updates to existing [posts](./blog) and new posts as well).
+### News! Fresh off the press 🖨️🎉!
+* (2025-01-29) Check out the new [blog](./blog/career-consultation/) on my
+    recent career consultation session. This could be basic info for those more
+    adept, but I'm genuinely awed.
+* (2025-01-27) Check out the new [journal](./logs) section! (Also updates to
+    existing [posts](./blog) and new posts as well).
 
 ### Credit
 To see the brilliant theme I'm using, check out the [example
