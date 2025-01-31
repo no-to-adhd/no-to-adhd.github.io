@@ -1,0 +1,26 @@
+@import "../themes/apollo/sass/main.scss"
+
+.invisible-text {
+  /* Light theme defaults */
+  color: var(--text-color, #1e1e1e);
+  background-color: var(--text-color, #1e1e1e);
+  display: inline;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .invisible-text {
+    /* Dark theme override */
+    color: var(--text-color-dark, #ffffff);
+    background-color: var(--text-color-dark, #ffffff);
+  }
+}
+
+/* Preserve invisibility when printing */
+@media print {
+  .invisible-text {
+    color: transparent !important;
+    background-color: transparent !important;
+  }
+}
