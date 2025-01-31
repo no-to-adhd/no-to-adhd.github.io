@@ -4,6 +4,9 @@ date = 2025-01-27
 
 [taxonomies]
 tags = ["Plan", "Peflection"]
+
+[extra]
+comment = true
 +++
 
 > 反省的事时时挂在心头。但知道自己做对了什么或许对改变自己同样重要。
