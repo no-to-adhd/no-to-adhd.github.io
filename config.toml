@@ -11,7 +11,7 @@ build_search_index = true
 
 [extra]
 # Put all your custom variables here
-theme = "auto"
+theme = "toggle"
 
 socials = [
     { name = "github", url = "https://github.com/no-to-adhd", icon = "github" },
