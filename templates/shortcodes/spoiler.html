@@ -1,4 +1,6 @@
 <details>
     <summary>{{ spoiler_alert }}</summary>
-    {{ body }}
+    <div>
+    {{ body | markdown | safe }}
+    </div>
 </details>

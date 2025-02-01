@@ -6,7 +6,7 @@ date = "2025-02-01"
 tags = ["Journal", "Reflection"]
 
 [extra]
-comments = true
+comment = true
 +++
 
 > ”建议将这次挑战视为个人转型的契机，使用企业OKR的方法管理目标。真正的上进心会自然散发能量，即使这段关系未果，你也已经站在新的人生起点“ -- DeepSeek R1 chain of thought model.
