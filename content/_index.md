@@ -7,6 +7,9 @@ Welcome to a totally unorganized place on the far corners of the internet. This 
     combat his PADHD (**P**retended **A**ttention **D**eficit **H**yperactivity **D**isorder).
 
 ### News! Fresh off the press 🖨️🎉!
+* (2025-02-03) The new [journals](./journals/) from the weekend of 2025-02-01/02 is live.
+    I have some of the most emotional days, even though the posts aren't
+    exactly very long.
 * (2025-02-01) The new [journals](./journals/) are live! Oh boy I've gone so deep.
 * (2025-01-29) Check out the new [blog](./blog/career-consultation/) on my
     recent career consultation session. This could be basic info for those more
