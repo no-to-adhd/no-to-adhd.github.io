@@ -1,6 +1,7 @@
 +++
 title = "Read Papers with LLM"
 date = 2025-01-27
+update = 2025-02-03
 
 [taxonomies]
 tags = ["Reflection"]
@@ -104,3 +105,18 @@ human in the first pass).
 
 The full [chat](https://chatgpt.com/share/6797ad48-1b2c-800d-950e-fb4d301f5236) under
 this prompt.
+
+---
+
+Update 2025-02-03
+
+This is working surprisingly well, especially for literature review or
+slightly more in depth reading. A part from this method requiring too
+large a context window to fit on some cheaper LLM services, in general
+this methods hones my understanding of the paper sufficiently for
+survey papers or "ideas" papers.
+
+For implementation papers, the questions from the second step is probably
+required for better results. Finally, to fully understand the impact
+of the paper, one may want to write a short paragraph on how we might
+be inspired by the methods in the paper.
