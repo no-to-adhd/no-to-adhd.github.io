@@ -9,25 +9,30 @@ tags = ["Tips"]
 comment = true
 +++
 
-In today's Tuesday special, we will look at tattoo aftercare, because we all
-know a special someone is getting her first tattoo done. After all these years,
-somebody's dream is coming true!
+In today's Tuesday special, we look at tattoo aftercare, since a good friend
+is getting her first tattoo done. After all these years, somebody's dream is
+coming true!
 
 So on this special occasion, being a practical person who's totally unqualified
 on the subject matter, it is time to share my total untested knowledge about
-tattoo aftercare. It's gonna hurt, but it's also gonna heal. By the time the
+tattoo aftercare. "_It's gonna hurt, but it's also gonna heal. By the time the
 pain subsides and the tattoo is set, someone is leaving a beautiful mark on
-their skin. But in between this process, there's something I've scraped from
-the internet (and also Amazon) which might help you go through the process
-smoother, more painless, and end up with a more vibrant tattoo in the end.
+their skin._" (nobody said that, and it sounds lame). But in between this
+process, there's something I've scraped from the internet (and also Amazon)
+which might help you go through the process smoother, more painless, and end up
+with a more vibrant tattoo in the end.
 
 ### Totally Unoriginal Content
 
 _This section was first found on the r/tattoo subreddit, by
-u/solomonplewtattoo, based on this profile he seemed to be a
+u/solomonplewtattoo, based on his profile he seemed to be a
 tattoo artist, so I'll take his words for this particular matter. This blog
 only reformats the content because the original post was a reddit post without
 the help of proper formatting. I hope you enjoy reading it._
+
+> TLDR; listen to your tattoo artist who would have a good idea as to what to
+> with your tattoo. Bring the product to the shop and ask if the tattoo artist
+> would recommend it.
 
 There are many misconception for tattoo aftercare. I wrote this to help guide
 people in their healing experience, answer questions and give overall

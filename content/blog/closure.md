@@ -62,13 +62,13 @@ as bad, if not worse. _Pain isn't a competition_, the severity of someone
 else's pain doesn't diminish that of my own, when it's there, it's there.
 
 All of a sudden, I start to recall a comment of this anime I've read a 7 years
-ago, one which, at the time, seemed out of touch to me: 四月は君の嘘 isn't just
+ago, one which, at the time, seemed out of touch to me: "四月は君の嘘 isn't just
 a teenage love tragedy, a story that finds its place in the 少年 section of the
 manga store for younger people. It is instead a story about growth, about the
 inevitable loss one faces in life, and about how to rise up stronger from all
 of that, a story for the grown-ups (or perhaps, adults who have yet to grow
-up). The way the anime ended doesn't make it a just a tragedy: quite the
-opposite, it makes it serious, realistic, and meaningful, and even heart
+up)." The way the anime ended doesn't make it a tragedy: quite the
+opposite, it made it serious, realistic, and meaningful, and even heart
 warming. After all, it was not just only the love from かをりthat kept 有馬公生
 going, what's more was what かをり taught him: to love life, to have faith in
 the future, and to love everyone around him. Just like かをり, what 🐷 taught
@@ -79,7 +79,7 @@ I've always teared up every time I watched 四月は君の嘘's last episode. I'
 always thought I've had a relationship just as beautiful, and I was afraid of an
 abrupt end to it, just like in the story. Yet, when the relationship has ended, in
 many ways just as abruptly, I've finally come to understand the the story as was
-told (and perhaps intended by the author): life isn't a fairy tale, people walk
+told (and perhaps intended) by the author: life isn't a fairy tale, people walk
 into your life, sometimes quietly, without their shoes on, find their ways into
 your heart, leave a dent, and then quietly tip-toe away. Yet their departure
 doesn't mean that they've vanished, quite the opposite: they have, willfully
