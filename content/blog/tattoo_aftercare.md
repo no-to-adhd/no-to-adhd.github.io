@@ -9,7 +9,9 @@ tags = ["Tips"]
 comment = true
 +++
 
-In today's Tuesday special, we look at tattoo aftercare, since a good friend
+(Disclaimer: this post was ideated and written before the radio black out)
+
+In today's Sunday special, we look at tattoo aftercare, since a good friend
 is getting her first tattoo done. After all these years, somebody's dream is
 coming true!
 
