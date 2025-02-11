@@ -29,4 +29,4 @@ By viewing this site, the viewer statistics will be recorded via
 [unami](https://umami.is/) (at least until I host it myself in the future).
 
 ### Footnotes
-[^1]:Site made with [Zola](https://www.getzola.org/) and █'s ❤️ (🐬💔,🐷❔➡️🕛🕒🕕🕘➡️🐬💪➡️🐷💘🐬➡️🫂)
+[^1]:Site made with [Zola](https://www.getzola.org/) and █'s ❤️ (🐬💔➡️🕛🕒🕕🕘➡️🐬💪)
