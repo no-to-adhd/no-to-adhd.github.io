@@ -29,6 +29,10 @@ and perhaps the readership of each blog post.
     * [ ] Automatically convert `.norg` to `.md` using neorg builtin tools.
     * [ ] Add parsing options for additional tags like `[taxonomies]` in the
         markdown exporter.
+* [ ] "I'll do you one better"
+    * [ ] Potentially either use existing norg [parsers](https://github.com/nvim-neorg/rust-norg) or
+        norg to html through [norgmill](https://github.com/hardfau1t/norgmill).
+    * [ ] Fork zola to work with norg files.
 
 ### Work logging
 
