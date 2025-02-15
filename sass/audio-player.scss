@@ -1,0 +1,258 @@
+// 完全扁平化处理的核心样式
+/* .zola-audio { */
+/*   width: 100%; */
+/*   margin: 1.5rem 0; */
+/*   background: var(--bg-2); */
+/*   border: 2px solid var(--border-color); */
+/*   border-radius: 0; // 移除圆角保持直角风格 */
+/**/
+/*   // 统一控件面板 */
+/*   &::-webkit-media-controls-panel { */
+/*     background: var(--bg-1); */
+/*     border-top: 2px solid var(--border-color); */
+/*   } */
+/**/
+/*   // 进度条系统 */
+/*   &::-webkit-media-controls-timeline { */
+/*     background: var(--bg-2); */
+/*     height: 3px; */
+/*   } */
+/**/
+/*   &::-webkit-media-controls-timeline-progress-bar { */
+/*     background: var(--primary-color); */
+/*     height: 3px; */
+/*   } */
+/**/
+/*   // 控制按钮 */
+/*   &::-webkit-media-controls-play-button, */
+/*   &::-webkit-media-controls-mute-button { */
+/*     -webkit-appearance: none; */
+/*     width: 24px; */
+/*     height: 24px; */
+/*     background-color: var(--primary-color); */
+/*     mask-repeat: no-repeat; */
+/*     mask-position: center; */
+/*      */
+/*     // 播放按钮图标 */
+/*     &::-webkit-media-controls-play-button { */
+/*       mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='currentColor'%3E%3Cpath d='M5 3l14 9-14 9V3z'/%3E%3C/svg%3E"); */
+/*     } */
+/**/
+/*     // 静音按钮图标 */
+/*     &::-webkit-media-controls-mute-button { */
+/*       mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' fill='none' stroke='currentColor'%3E%3Cpath d='M11 5L6 9H2v6h4l5 4V5zM15.54 8.46a5 5 0 010 7.07M17.07 6.93a8 8 0 010 11.31'/%3E%3C/svg%3E"); */
+/*     } */
+/*   } */
+/**/
+/*   // 时间显示 */
+/*   &::-webkit-media-controls-current-time-display, */
+/*   &::-webkit-media-controls-time-remaining-display { */
+/*     color: var(--text-1); */
+/*     font-size: 0.9em; */
+/*     letter-spacing: -0.05em; */
+/*   } */
+/**/
+/*   // 音量控制 */
+/*   &::-webkit-media-controls-volume-slider { */
+/*     &::-webkit-slider-runnable-track { */
+/*       background: var(--bg-2); */
+/*     } */
+/*     &::-webkit-slider-thumb { */
+/*       background: var(--primary-color); */
+/*       border-radius: 0; */
+/*     } */
+/*   } */
+/* } */
+/**/
+/* // 移动端极简模式 */
+/* @media (max-width: 768px) { */
+/*   .zola-audio { */
+/*     border-width: 1px; */
+/*     margin: 1rem 0; */
+/**/
+/*     &::-webkit-media-controls-time-remaining-display, */
+/*     &::-webkit-media-controls-timeline { */
+/*       display: none; */
+/*     } */
+/**/
+/*     &::-webkit-media-controls-play-button { */
+/*       width: 20px; */
+/*       height: 20px; */
+/*     } */
+/*   } */
+/* } */
+/**/
+
+// ---------------------------------------------------------
+// Music Player SCSS
+// Inspired by Apollo (https://github.com/not-matthias/apollo) :contentReference[oaicite:0]{index=0}
+//
+// This file defines basic styles for an HTML5 music player,
+// including a container, controls (play/pause, next/prev),
+// progress bar, volume control, and time display.
+// ---------------------------------------------------------
+
+// Color & mode variables
+$bg-light: #ffffff;
+$text-light: #333333;
+$accent-light: #ff6f61;
+
+$bg-dark: #181818;
+$text-dark: #e0e0e0;
+$accent-dark: #ff6f61;
+
+// Base font (adjust as needed to match Apollo’s typography)
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Music player container
+.music-player {
+  font-family: $font-stack;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: $bg-light;
+  color: $text-light;
+  max-width: 400px;
+  margin: 0 auto;
+
+  // Dark mode variant
+  &.dark {
+    background-color: $bg-dark;
+    color: $text-dark;
+  }
+
+  // Player Controls
+  &__controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+
+    button {
+      background: none;
+      border: none;
+      color: $accent-light;
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin: 0 0.5rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: lighten($accent-light, 10%);
+      }
+    }
+
+    // Adjust for dark mode
+    .music-player.dark & {
+      button {
+        color: $accent-dark;
+
+        &:hover {
+          color: lighten($accent-dark, 10%);
+        }
+      }
+    }
+  }
+
+  // Progress Bar
+  &__progress {
+    width: 100%;
+    height: 0.5rem;
+    background-color: lighten($bg-light, 10%);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin: 1rem 0;
+
+    .music-player__progress-bar {
+      width: 0%;
+      height: 100%;
+      background-color: $accent-light;
+      transition: width 0.3s ease;
+    }
+
+    // Dark mode adjustments
+    .music-player.dark & {
+      background-color: darken($bg-dark, 5%);
+      .music-player__progress-bar {
+        background-color: $accent-dark;
+      }
+    }
+  }
+
+  // Volume Control
+  &__volume {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+
+    label {
+      margin-right: 0.5rem;
+    }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      background: transparent;
+      width: 100px;
+
+      // Webkit styling
+      &::-webkit-slider-runnable-track {
+        height: 4px;
+        background: lighten($bg-light, 20%);
+        border-radius: 2px;
+      }
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 12px;
+        height: 12px;
+        background: $accent-light;
+        border-radius: 50%;
+        margin-top: -4px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+      &:hover::-webkit-slider-thumb {
+        background: lighten($accent-light, 10%);
+      }
+
+      // Firefox styling
+      &::-moz-range-track {
+        height: 4px;
+        background: lighten($bg-light, 20%);
+        border-radius: 2px;
+      }
+      &::-moz-range-thumb {
+        width: 12px;
+        height: 12px;
+        background: $accent-light;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      // Dark mode adjustments
+      .music-player.dark & {
+        &::-webkit-slider-runnable-track {
+          background: darken($bg-dark, 10%);
+        }
+        &::-webkit-slider-thumb {
+          background: $accent-dark;
+        }
+        &::-moz-range-track {
+          background: darken($bg-dark, 10%);
+        }
+        &::-moz-range-thumb {
+          background: $accent-dark;
+        }
+      }
+    }
+  }
+
+  // Time Display (e.g., current time and duration)
+  &__time {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+}
