@@ -72,7 +72,7 @@ ones that kept me going. For any of my audiences (of which I only know one), it
 is perhaps a good place to peek into my past, and draw a little bit of a smile
 at the end of it 🤗.
 
-(to be continue.)
+(to be continued.)
 
 ---
 
@@ -99,7 +99,7 @@ the url. Here's our conversation:
 >  
 > 期待下周联络！  
 >  
-> Dad: _<some stuffs he says when he's pissed/feels rejected>_.
+> Dad: *<some very stuffs he says when he's upset/feels rejected>*.
 
 Though this conversation didn't go exactly as I intended, nevertheless, I think I've made a point about what this website is:
 
