@@ -1,0 +1,25 @@
+{# templates/shortcodes/latest_posts.html #}
+
+{% macro latest_posts(section_name="blog") %}
+  {# 动态匹配栏目名称 #}
+  {% for s in config.sections %}
+    {% if s.relative_path == section_name ~ "/_index.md" %}
+      {% set section = s %}
+    {% endif %}
+  {% endfor %}
+
+  {% if not section %}
+    {{ throw(message="ERROR: Section '" ~ section_name ~ "' not found!") }}
+  {% endif %}
+
+  {# 渲染逻辑 #}
+  {% set pages = section.pages | sort(attribute="date") | reverse %}
+  <ul class="latest-posts">
+    {% for post in pages | slice(end=5) %}
+      <li>
+        <a href="{{ post.permalink }}">{{ post.title }}</a>
+        <span class="date">{{ post.date | date(format="%Y-%m-%d") }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro %}

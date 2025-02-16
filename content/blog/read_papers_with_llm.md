@@ -1,7 +1,7 @@
 +++
 title = "Read Papers with LLM"
 date = 2025-01-27
-update = 2025-02-03
+updated = 2025-02-03
 
 [taxonomies]
 tags = ["Reflection"]

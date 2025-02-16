@@ -1,6 +1,7 @@
 +++
 title = "Tattoo Aftercare"
 date = 2025-02-10
+updated = 2025-02-10
 
 [taxonomies]
 tags = ["Tips"]
