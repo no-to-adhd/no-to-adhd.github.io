@@ -1,6 +1,7 @@
 +++
 title = "Closure: 四月は君の嘘"
 date = 2025-02-04
+updated = 2025-02-04
 
 [taxonomies] 
 tags = ["Reflection", "Things I Want to Say"]

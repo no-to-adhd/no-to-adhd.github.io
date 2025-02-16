@@ -23,6 +23,10 @@
             <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
 
             <div>
+                {% if page.updated %}
+                    :: Updated on <time>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+                {% endif %}
+
                 <h1 class="title">
                     <a href={{ page.permalink | safe }}>{{page.title}}</a>
 

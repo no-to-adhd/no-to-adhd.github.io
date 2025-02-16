@@ -1,7 +1,7 @@
 +++
 title = "New Year's Resolution (草稿-夸夸篇)"
 date = 2025-01-27
-update = 2025-02-15
+updated = 2025-02-15
 
 [taxonomies]
 tags = ["Plan", "Reflection"]
