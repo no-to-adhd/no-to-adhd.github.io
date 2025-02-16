@@ -1,6 +1,7 @@
 +++
 title = "Career Consultation (全文干货)"
 date = 2025-01-29
+updated = 2025-01-29
 
 [taxonomies]
 tags = ["Plan", "Career"]
