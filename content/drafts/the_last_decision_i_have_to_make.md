@@ -20,3 +20,13 @@ they were, of course, being quite supportive (and they told me)
 
 I guess one of the things that does keep me forward is love, or to be more
 specific, 
+
+https://youtu.be/Rb0faZ_ikTs?si=4AJajbmUlhqF54y5
+
+> To my ex: this journal took time to make, because it took me a lot of time and struggle
+> to make a decision. I will write a blog post on that decision later this week, and 
+> subsequent changes to this website (at least the journal sections) will be made when
+> that decision is announced. But TLDR: you won't see these journals for a while, starting
+> from this week. I'm in a happy place in life: not exactly everything is going well, but
+> I'm motivated to 
+
