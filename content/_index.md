@@ -12,8 +12,10 @@ Welcome to a totally unorganized place on the far corners of the internet. This 
 **Important Announcement: This site is still being updated daily. However, as part of
 a recent agreement, I am no longer posting my journals here on a daily basis.
 Instead, the journal entries will be kept private in the draft section of the
-site until a better time for their release(if you really need to checkout,
-checkout the draft section on the github repo or check out the commit history).**
+site until a better time for their release (if you really need to check them out,
+see the draft section on the github repo or check out the commit history). Blogs
+are still being updated when the opportunity arise (i.e. when I get in the mood
+of writing).**
 
 ### Credit
 To see the brilliant theme I'm using, check out the [example
