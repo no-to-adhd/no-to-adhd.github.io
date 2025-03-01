@@ -61,10 +61,11 @@ by Scott Geller from a recent video I watched (which turned out to be useful).
 I feel like I'm in one, and more than that, I can manage, build and maintain
 a corpus on my own.
 
-I guess I'd thank my friend for their company at this 
+I guess I'd thank my friend for their company in this single strangest month
+of my life, a month in which, I went through so much, and life has changed
+in so many ways, that it'll be hard to look back.
 
-% TODO: photo dump here (there should be a **LOT**)
-![cny dinner]{/img/cny_dinnner.jpg}
+### Photo dump of the month
 
 ![img](/img/boat_man.jpg)
 ![img](/img/long_and_winding_rd.jpg)
