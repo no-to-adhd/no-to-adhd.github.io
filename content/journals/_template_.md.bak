@@ -11,26 +11,40 @@ comment = true
 
 > ”建议将这次挑战视为个人转型的契机，使用企业OKR的方法管理目标。真正的上进心会自然散发能量，即使这段关系未果，你也已经站在新的人生起点“ -- DeepSeek R1 chain of thought model.
 
+The key to self-motivation is: feeling competent at doing worthwhile work.
+- Always go for the good consequences.
+- Make you feel you have a choice: believe you have a sense of autonomy: go for
+    pleasantt consequences. Positive reinforcement
+- Build a sense of community. Adults are inter-dependent, not independent.
+
+What I understand myself:
+- I/E: I'm in between being extroverted and introverted.
+- N: I'm more intuitive/empathetic than reasoning. I'm better at designing than analysis. My analysis skills needs to be trained.
+- F: I'm a feeler. I may decide based on my feelings.
+
+
 I am so impressed by modern LLMs. They are truly powerful when it comes to
 supposedly obvious things that were made difficult by human irrationality
 and psychological barriers.
 
 ### 高效时段
-- 早上0930-1130：管理网站，添加analytics功能，并做一些前端优化。基本完成通过LLM看论文的稿子。
-- 下午1440-1715: Pomodoro 1.5h + 歇息20min, 测试了使用LLM看论文的方法（待完善），完成了1.5个论文阅读pass。除中间处理学院离谱🚩问题外高度专心。
+- 早上0930-1130
+- 下午1440-1715
 
-### 背景学习（非直接手头人物相关，但又收获的学习过程）
-- 晚上1820-1840：了解了DeepSeek训练特性，了解了RL的内容。
-- 晚上1840-1900: 学习测试了新网站上
+##### 任务分解
+_考虑到我的ADHD症状，提前合理的分解任务很重要。将这些任务一一写下来有助于我更加专心_
+
 
 ### 有效休息
-- 中午1130-1230：与🐷通话。
 - 晚上1920-1950：看了严肃围棋学习视频第一节，学会了基本规则，官子与打劫。
 - 晚上2250-2330: 健身+洗澡。
 
 ### 浪费时间
-- 早0530-0630：醒来后躺床上看B站，**没有任何收获**。
-- 晚1900-1920：B站Doom scroll，没有任何收获
+最好没有
+
+### 发愿
+
+### 还愿
 
 ### 元效率
 - 晚上2000-2030：使用DeepSeek R1规划如何走出当今的困境，很有启发性的发言。
@@ -39,22 +53,5 @@ and psychological barriers.
 ### 今天的观察
 - 使用LLM看论文的方法非常有效，通过系统性的问答与互动明显加深了对文章的理解。连续专心超过1小时且没有中间休息(若非GPT到限额可以专心2小时+)。***使用交互问答可以有效提高注意力***。
 - 早起绝不要先看手机。实际上相对专注的一天非常快乐，不需要看社交媒体也可以让自己身心愉快。
-- 美中不足：今天因为“害怕与人沟通”而没有按时去吃饭，且受情绪控制的同时**居然没有意识到**自己的选择是因为情绪。
-- 美中不足：GPT4o免费版有限制，导致无法一次性完成Pass 1 + Pass 2。未来考虑使用开源tokenizer+模型。
-- 美中不足：大图书馆南图书室下午很暗，没法看纸质文本。
 
 ### 其他的话
-
-{% spoiler(spoiler_alert="🐷不要看，看了不要鄙夷我")%}
-
-晚1800-1820 翻看🐷送的粉色笔记本，打算把里面的手绘电子化放进Photo Booth，看完大哭一场。曾经有一份世界上最美好的爱情放在我面前我没有珍惜...成年后数一数二的大哭。
-
-
-🐷在我18岁时送我的本子，除了寥寥几篇（用了不到10面）反思以外，没有记录太多东西。🐷在本子最后写道：“不知道你在用完这个本子的时候是十九岁、二十岁还是（如果本子够结实的话）四十岁”。很遗憾，这六年间我没有写下太多，许多回忆不留在笔端，当回忆起来是连记忆的媒介都没有，变成了记忆中浑浑噩噩的日、月、年。
-
-
-当时收到本子时只觉得画的好好，她好用心，但心里也未免没有想过“怎么又是本子”这种很欠巴掌的话。没想到今天再看，别有一番滋味，或许是我一辈子收到的最好的礼物了，也愧疚自己似乎从未送出过这么用心，让人感动的礼物。或许她给我的礼物，就是她心中最好最好的礼物。或许我应该给她一样这样的礼物。希望美丽的回忆不会就此结束吧，希望我能在四十岁时把写满满的本子给她看，希望里面不再只有不停的、没有行动的反思（庆幸的是今年7月写的反思多少有长期效果），也有更多活力、进步、成长，以及可以勾起快乐回忆的片段(as in a vector for memory)。
-
-希望我们能后·会·有·期。
-
-{% end %}
