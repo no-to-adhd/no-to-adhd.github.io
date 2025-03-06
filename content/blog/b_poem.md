@@ -45,4 +45,4 @@ tags = ["Poem", "Creative"]
 ![girl_and_stairs](/img/girl_and_stairs.png)
 > 戴红兜帽的学生。
 
-所以我只是如实的写下了我眼前的景色。世界本来就很美。
+所以我如实地写下了我眼前的景色。希望有给读者带来一点好心情！
