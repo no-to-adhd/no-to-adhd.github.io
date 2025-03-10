@@ -10,7 +10,7 @@ of ADHD, but I was never diagnosed with it.
 
 ### Picture of the week
 ![This tree has a heart](/img/this_tree_has_a_heart.jpg)
-> "This tree's got a heart" -- Morning, 05-03-2025
+> "This tree's got a heart!" -- 2025-03-05 morning
 
 ### NOTICE
 **Important Announcement: This site is still being updated daily. However,
