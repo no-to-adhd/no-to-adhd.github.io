@@ -1,7 +1,7 @@
 +++
 title = "Photo Dump"
 date = "2025-03-10"
-updated = "2025-03-10"
+updated = "2025-03-19"
 
 [taxonomies]
 tags = ["Reflection", "Creative"]
@@ -128,3 +128,30 @@ can probably use it as you will.
 ### A Week in Review
 
 Check out my journal for 2025-03-08. I loved how I spent second half of the week.
+
+---
+
+### More photos
+
+![hc_logs](/img/hc_logs.jpg)
+![hc_leaves](/img/hc_leaves.jpg)
+
+> Tree logs and leaves in Harvey Court under the afternoon sun.
+
+![mcr](/img/mcr.jpg)
+
+> The red room under the midday sun.  
+> The smell of leather and fabric warmed
+> up by the warm sunlight, shadows and reflections off the red carpet. Empty
+> room with lots of good company. It's just the perfect place for a nap, and
+> 5 minutes of peace.
+
+![trump_face](/img/trump_face.jpg)
+
+> Trump's face
+
+![peach_flower](/img/peach_flower.jpg)
+
+> 桃花？
+
+![girl_in_flowers](/img/girl_in_flowers.jpg)
