@@ -9,8 +9,8 @@ This is █'s secret base to combat his PADHD (**P**otential **A**ttention
 of ADHD, but I was never diagnosed with it.
 
 ### Picture of the week
-![This tree has a heart](/img/this_tree_has_a_heart.jpg)
-> "This tree's got a heart!" -- 2025-03-05 morning
+![We have a future in the past](/img/edinburgh_2022.jpg)
+> "We have a future in the past" -- Summer 2022
 
 ### NOTICE
 **Important Announcement: This site is still being updated daily. However,
