@@ -39,3 +39,7 @@ to be synced across devices.
     2. Try to form a coherent story through my notes (after the lectures)
     3. Before watching the lectures, write down exactly my questions when I
        first look at the questions in the assignment.
+
+---
+- Stack: buy that/those books and get it reimbursed.
+- Stack: send out the phone through post.

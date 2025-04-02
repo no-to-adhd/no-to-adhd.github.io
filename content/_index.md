@@ -9,6 +9,9 @@ This is █'s secret base to combat his PADHD (**P**otential **A**ttention
 of ADHD, but I was never diagnosed with it.
 
 ### Picture of the week
+![Like segmented sky](img/window_segmented_sky_flag.jpg)
+> The grid fins on the roof segmented the sky to create a flag.
+
 ![We have a future in the past](/img/edinburgh_2022.jpg)
 > "We have a future in the past" -- Summer 2022
 
