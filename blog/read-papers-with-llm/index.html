@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https:&#x2F;&#x2F;no-to-adhd.github.io">
+
+    
+
+    
+    
+    
+    <title>
+         Read Papers with LLM
+        
+    </title>
+
+        
+            <meta property="og:title" content="Read Papers with LLM" />
+        
+     
+
+     
+         
+     
+
+     
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://no-to-adhd.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+        
+            
+            
+
+            <script defer src="/js/imamu.js" data-website-id="7786faed-5552-4755-b75e-3f2ba322f41a" data-host-url="https:&#x2F;&#x2F;api-gateway.umami.dev&#x2F;"></script>
+        
+
+        
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/codeblock.js></script>
+    
+
+    
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="" href="https://no-to-adhd.github.io/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://no-to-adhd.github.io/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://no-to-adhd.github.io/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://no-to-adhd.github.io/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://no-to-adhd.github.io/main.css />
+
+    
+
+    <script src=https://no-to-adhd.github.io/js/mermaid.js></script>
+
+    
+        <script defer src="https://no-to-adhd.github.io/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script></head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        
+            <a href=https:&#x2F;&#x2F;no-to-adhd.github.io></a>
+        
+
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;no-to-adhd" class="social">
+                <img alt=github src=https://no-to-adhd.github.io/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=https://no-to-adhd.github.io style="margin-left: 0.25em">&#x2F;</a>
+        
+            <a href=https://no-to-adhd.github.io/blog style="margin-left: 0.25em">&#x2F;blogs</a>
+        
+            <a href=https://no-to-adhd.github.io/journals style="margin-left: 0.25em">&#x2F;journals</a>
+        
+            <a href=https://no-to-adhd.github.io/tags style="margin-left: 0.25em">&#x2F;tags</a>
+        
+
+        
+        <button 
+            id="search-button"
+            class="search-button"
+            title="$SHORTCUT to open search"
+        >
+            <img 
+                src="https://no-to-adhd.github.io/search.svg" 
+                alt="Search" 
+                class="search-icon"
+            >
+        </button>
+
+        <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+            <div id="modal-content">
+                <h1 id="modalTitle" class="page-header">Search</h1>
+                <div id="searchBar">
+                    <input 
+                        id="searchInput" 
+                        role="combobox" 
+                        autocomplete="off" 
+                        spellcheck="false" 
+                        aria-expanded="false" 
+                        aria-controls="results-container" 
+                        placeholder="Search..."
+                    />
+                    <button 
+                        id="clear-search" 
+                        class="clear-button"
+                        title="Clear search"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="results-container">
+                    <div id="results-info">
+                        <span id="zero_results" style="display: none;">No results</span>
+                        <span id="one_result" style="display: none;">1 result</span>
+                        <span id="many_results" style="display: none;">$NUMBER results</span>
+                    </div>
+                    <div id="results" role="listbox"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+            <a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+                <img src=https://no-to-adhd.github.io/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+                <img src=https://no-to-adhd.github.io/feather/moon.svg id="moon-icon" alt="Dark" />
+            </a>
+
+            <!-- Inititialize the theme toggle icons -->
+            <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Read Papers with LLM<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-01-27</time>
+                    
+
+                    
+                        :: Updated on <time>2025-02-03</time>
+                    
+
+                    
+
+                    
+                    
+                            <span class="tags-label"> :: Tags:</span>
+                            <span class="tags">
+                                    <a href="https://no-to-adhd.github.io/tags/reflection/" class="post-tag">Reflection</a>
+                                
+                            </span>
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>While I have enjoyed reading since while I was a kid, reading long academic papers has been,
+ever since the need first emerged for me about 10 years ago, a source of misery. It has been
+hard for me to</p>
+<h3 id="the-3-pass-method">The 3-Pass Method</h3>
+<p>S. Keshav has famously proposed the
+<a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf">3-pass</a> method that has
+been the goto reference for paper reading techniques in every graduate course I
+have attended. As the name suggest, there are 3 passes when it comes to reading
+a paper:</p>
+<ol>
+<li>
+<p>The first pass aims to answer the following question:
+<em>What type of paper is it (theory, measurement, implementation,
+experience)?</em> <em>Which other papers is it related to? What is the problem
+domain?</em> <em>Do the assumptions hold?</em> <em>What is the main contribution</em>?</p>
+<p>In order to anwer these questions, the reader needs to read the
+paper's abstract, introduction, section and subsection headings,
+the conclusion, potentially the related work section, and the references.</p>
+</li>
+<li>
+<p>The second pass aims to help the reader grasp the main content of the paper.
+All apart from the proofs need to be understood through this pass. It is also
+important to mark unread references.
+<em>What's method?</em> <em>What evaluation metrics are used?</em> <em>What are the results?</em>
+<em>Are the results good quality/credible?</em></p>
+</li>
+<li>
+<p>The third pass should be treated as if you are re-implementing the paper
+yourself, and one should care about every single detail of the paper.
+Some questions you can ask yourself: <em>Do you have some ideas for future work?</em>,
+<em>What metrics would you be interested in, and how would you have designed the
+implementation/experiments differently?</em></p>
+</li>
+</ol>
+<h3 id="inadequacies">Inadequacies</h3>
+<p>These passes are a good starting point for reading a paper, but the danger of
+using these methods, especially if you stop at the second pass, is that you do
+not actually know if you've formed the correct "impression" of the paper.
+Especially for a beginner like me who don't have a good grasp of the field as a
+whole, or when we are actively exploring a new field to varying degree of understanding,
+there's no good way for me to know if I've missed some very basic assumptions
+in the field, or if I failed to understand a key concept due to misconception.
+Further, I have come to doubt my reading comprehension capabilities recently
+in part due to previous failed attempt to understand papers by read a paper
+through from cover to cover (which is admittedly not the recommended way to
+read a paper if you really want to understand it).</p>
+<p>This is where generative AI comes in. The <a href="https://github.com/MuiseDestiny/zotero-gpt">Zotero
+GPT</a> plugin for this well-loved
+reference manager has already provided a plethora of tools to help with paper
+summary, literature review and so on. A few more custom prompts could help
+further. In particular, it is useful to ask the LLM to evaluate your answers to
+the questions listed above, and judge your understanding of the papers based on
+the answers. Current testing shows that this is a bit of a hit-or-miss, where
+the LLM could generate a number of hallucinated nonsense along with a few key
+comments that is actually useful and insightful. In the next section (tbc) will
+present my test with a number of prompts, as well as the suitability of some of the
+foundational models for this particular task.</p>
+<p>Another idea is to use LLMs for contextual information briefing, where the LLM
+could be asked to project the contextual knowledge required to the read the paper,
+or to understand the full motivation and context of the paper in the first place.
+One downside with the current implementation is that most LLM api services do not
+seem to release a public api which integrates with their web search services. This
+raises doubts as to how much the LLM is actually able to understand from either the
+prompt or the tokenized paper, without additional input from</p>
+<h3 id="test-with-llms">Test with LLMs</h3>
+<h4 id="idea-i-ask-the-llm-to-be-your-professor-pi">Idea I: ask the LLM to be your professor/PI</h4>
+<p>Tests with ChatGPT (non-chain of thought model):</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>(You do not need to respond to this prompt) You are a professor in computer
+</span><span>science who is leading a reading group. Students in your group will review
+</span><span>research papers and ask for your comment. You can be as critical as you want so
+</span><span>long as your critiques are truthful. In each session, you will be given a
+</span><span>research paper, about which the students will then ask for contextual knowledge
+</span><span>required for them to understand this paper. The students will then answer the
+</span><span>following questions: _what is the motivation for this paper?_, _what type of
+</span><span>paper (implementation, evaluation/measurement, ideas, theory, proofs, etc)?_,
+</span><span>_what is the problem domain?_ and _what is the main contribution?_. You will
+</span><span>need to JUDGE their answers critically, and indicate what your student may have
+</span><span>failed to understand.
+</span></code></pre>
+<p>During the first reading pass, the LLM has provided critiques of the responses.
+It does not neccesarily have the full contextual knowledge of a computer
+science masters student (maybe it is not prompted correctly), but it does
+know how to read a paper, and provides insights from <em>foresight</em> (since it
+has "read" through the whole paper, compared to just a few sections by the
+human in the first pass).</p>
+<p>The full <a href="https://chatgpt.com/share/6797ad48-1b2c-800d-950e-fb4d301f5236">chat</a> under
+this prompt.</p>
+<hr />
+<p>Update 2025-02-03</p>
+<p>This is working surprisingly well, especially for literature review or
+slightly more in depth reading. A part from this method requiring too
+large a context window to fit on some cheaper LLM services, in general
+this methods hones my understanding of the paper sufficiently for
+survey papers or "ideas" papers.</p>
+<p>For implementation papers, the questions from the second step is probably
+required for better results. Finally, to fully understand the impact
+of the paper, one may want to write a short paragraph on how we might
+be inspired by the methods in the paper.</p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+            
+        
+
+        
+        <div class="giscus"></div>
+        <script src="https://utteranc.es/client.js"
+        repo="no-to-adhd/no-to-adhd.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        
+    </div>
+</body>
+
+</html>
