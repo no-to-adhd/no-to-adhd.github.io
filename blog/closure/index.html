@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https:&#x2F;&#x2F;no-to-adhd.github.io">
+
+    
+
+    
+    
+    
+    <title>
+         Closure: 四月は君の嘘
+        
+    </title>
+
+        
+            <meta property="og:title" content="Closure: 四月は君の嘘" />
+        
+     
+
+     
+         
+     
+
+     
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://no-to-adhd.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+        
+            
+            
+
+            <script defer src="/js/imamu.js" data-website-id="7786faed-5552-4755-b75e-3f2ba322f41a" data-host-url="https:&#x2F;&#x2F;api-gateway.umami.dev&#x2F;"></script>
+        
+
+        
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/codeblock.js></script>
+    
+
+    
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="" href="https://no-to-adhd.github.io/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://no-to-adhd.github.io/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://no-to-adhd.github.io/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://no-to-adhd.github.io/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://no-to-adhd.github.io/main.css />
+
+    
+
+    <script src=https://no-to-adhd.github.io/js/mermaid.js></script>
+
+    
+        <script defer src="https://no-to-adhd.github.io/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script></head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        
+            <a href=https:&#x2F;&#x2F;no-to-adhd.github.io></a>
+        
+
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;no-to-adhd" class="social">
+                <img alt=github src=https://no-to-adhd.github.io/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=https://no-to-adhd.github.io style="margin-left: 0.25em">&#x2F;</a>
+        
+            <a href=https://no-to-adhd.github.io/blog style="margin-left: 0.25em">&#x2F;blogs</a>
+        
+            <a href=https://no-to-adhd.github.io/journals style="margin-left: 0.25em">&#x2F;journals</a>
+        
+            <a href=https://no-to-adhd.github.io/tags style="margin-left: 0.25em">&#x2F;tags</a>
+        
+
+        
+        <button 
+            id="search-button"
+            class="search-button"
+            title="$SHORTCUT to open search"
+        >
+            <img 
+                src="https://no-to-adhd.github.io/search.svg" 
+                alt="Search" 
+                class="search-icon"
+            >
+        </button>
+
+        <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+            <div id="modal-content">
+                <h1 id="modalTitle" class="page-header">Search</h1>
+                <div id="searchBar">
+                    <input 
+                        id="searchInput" 
+                        role="combobox" 
+                        autocomplete="off" 
+                        spellcheck="false" 
+                        aria-expanded="false" 
+                        aria-controls="results-container" 
+                        placeholder="Search..."
+                    />
+                    <button 
+                        id="clear-search" 
+                        class="clear-button"
+                        title="Clear search"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="results-container">
+                    <div id="results-info">
+                        <span id="zero_results" style="display: none;">No results</span>
+                        <span id="one_result" style="display: none;">1 result</span>
+                        <span id="many_results" style="display: none;">$NUMBER results</span>
+                    </div>
+                    <div id="results" role="listbox"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+            <a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+                <img src=https://no-to-adhd.github.io/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+                <img src=https://no-to-adhd.github.io/feather/moon.svg id="moon-icon" alt="Dark" />
+            </a>
+
+            <!-- Inititialize the theme toggle icons -->
+            <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Closure: 四月は君の嘘<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-02-04</time>
+                    
+
+                    
+                        :: Updated on <time>2025-02-04</time>
+                    
+
+                    
+
+                    
+                    
+                            <span class="tags-label"> :: Tags:</span>
+                            <span class="tags">
+                                    <a href="https://no-to-adhd.github.io/tags/reflection/" class="post-tag">Reflection</a>, 
+                                
+                                    <a href="https://no-to-adhd.github.io/tags/things-i-want-to-say/" class="post-tag">Things I Want to Say</a>
+                                
+                            </span>
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>昨日立春。</p>
+<p>I've spent another afternoon, anxiously waiting for 🐷 to check out my new website.
+Deep inside, I wanted to prove that I still have her attention. I waited
+eagerly for views of the website from a Singaporean IP, eager to look at what
+she'd be interested in amongst the myriad of new journals blogs posted since
+the last time she checked: probably around last thursday or so. Since then, she
+has not visited this site even once: no comments, and not even a single view
+according to the analytics. Deep inside, I can feel the pain, knowing that for
+whatever reason, she doesn't want to pay attention to my life and she's really
+moving on.</p>
+<p>I told two of my friends about this website, telling them to check it out
+regularly, and at least one of them did. Any expression needs an audience, and
+when the supposed/intended audience doesn't pay a visit, even for the right
+reasons, it still feels frustruating that it is the case. So now, I'm showing
+this to my friends, including bits that are cheesy, or even borderline
+inappropriate (because those are very heartfelt message I originally left for
+her). I want to be heard, and, when I've lost my regularly listening ear, I
+desperately needed to find a few more pairs.</p>
+<p>I spent much of this afternoon in agony, feeling the pain in my chest building
+up. I couldn't take it anymore. After half an hour of conversation, a full on
+"Big Five" test actually used in the Psychology Department (as opposed to MBTI
+which seems to generalize less well), and a soothing music session in which my
+friend J played live music that truly touched me, I still could not forget the
+pain I was feeling: the moment we stopped contacting each other, I'm
+being forgotten, left intentionally and perhaps happily out of her life. My
+stomach wrenchs, and I couldn't help myself anymore: I texted her on 📕, asking
+if she's already fallen asleep. An hour later, I thanked her for not replying:
+I needed this, both the pain and the knowledge that I can resolve it on my own.</p>
+<p>For whatever reason (perhaps I was being exploratory or, I just wanted relief,
+maybe I just wanted to find ways to cry about it), I opened up Bilibili, and
+started watching the last bit of 四月は君の嘘. It was one of the first animes
+that 🐷 and I watched together and, my hunch tells me that it also makes for
+a good closure.</p>
+<p>Watching the last bit of 四月は君の嘘 again makes me soooo sad. I knew this is
+going to make myself melancholic, but I went on with it anyways. I knew the
+story well enough to feel the resemblance: having her left my life is like
+loosing a best friend, a family and a lover all at once. The parallelism I see
+with the protagonist on the powerlessness we both felt was so overwhelming
+for a while, even though in the story the protagonist was facing his loved
+one's almost inevitable death, whereas in my case I was watching (from hindsight)
+my own relationship falling apart piece by piece, only to realize what's
+going on when it was all too late. The plot is also probably objectively less
+severe: 🐷 is still around, enjoying her life, while 宮園かをり is gone,
+forever. Yet, to think that 🐷 isn't in my future anymore, sometimes feels just
+as bad, if not worse. <em>Pain isn't a competition</em>, the severity of someone
+else's pain doesn't diminish that of my own, when it's there, it's there.</p>
+<p>All of a sudden, I start to recall a comment of this anime I've read a 7 years
+ago, one which, at the time, seemed out of touch to me: "四月は君の嘘 isn't just
+a teenage love tragedy, a story that finds its place in the 少年 section of the
+manga store for younger people. It is instead a story about growth, about the
+inevitable loss one faces in life, and about how to rise up stronger from all
+of that, a story for the grown-ups (or perhaps, adults who have yet to grow
+up)." The way the anime ended doesn't make it a tragedy: quite the
+opposite, it made it serious, realistic, and meaningful, and even heart
+warming. After all, it was not just only the love from かをりthat kept 有馬公生
+going, what's more was what かをり taught him: to love life, to have faith in
+the future, and to love everyone around him. Just like かをり, what 🐷 taught
+me through this heartbleeding break up, amounts to exactly that: to cherish
+life, every single second of it.</p>
+<p>I've always teared up every time I watched 四月は君の嘘's last episode. I've
+always thought I've had a relationship just as beautiful, and I was afraid of an
+abrupt end to it, just like in the story. Yet, when the relationship has ended, in
+many ways just as abruptly, I've finally come to understand the the story as was
+told (and perhaps intended) by the author: life isn't a fairy tale, people walk
+into your life, sometimes quietly, without their shoes on, find their ways into
+your heart, leave a dent, and then quietly tip-toe away. Yet their departure
+doesn't mean that they've vanished, quite the opposite: they have, willfully
+and whimsically, without any room for argument, found a permanent place to stay
+in your heart. They've made themselves an unforgeable and indelible part of
+your past, and, in doing so, made them a gentle yet permanent part of your
+present, just as alive and just as real as what you see, hear and feel right
+now. They shade my reality through a filter of love, empathy, and optimism,
+and they give me the courage to face my present and my future, to live my
+life to the fullest, as they would have if they are around, and as they will
+surely want me to.</p>
+<p>So instead of crying this time, I looked at it and smiled. A spring without
+you... is coming.</p>
+<p><img src="/img/shigatsu_wa_kimi_no_uso.webp" alt="manga1" />
+<img src="/img/shigatsu_wa_kimi_no_uso_2.webp" alt="manga2" />
+<img src="/img/shigatsu_wa_kimi_no_uso_3.webp" alt="manga3" /></p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+            
+        
+
+        
+        <div class="giscus"></div>
+        <script src="https://utteranc.es/client.js"
+        repo="no-to-adhd/no-to-adhd.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        
+    </div>
+</body>
+
+</html>
