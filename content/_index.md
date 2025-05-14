@@ -8,6 +8,13 @@ This is █'s secret base to combat his PADHD (**P**otential **A**ttention
 **D**eficit **H**yperactivity **D**isorder). I think I have many symptoms
 of ADHD, but I was never diagnosed with it.
 
+Interesting new quote:
+> 好的享乐是可以满足的享乐。不可满足的享乐是“强迫的享乐”。
+
+> 现代享乐主义的律令：人必须要快乐。
+> 抑郁症——对于享乐主义律令的不完全反抗：人必须要“不”快乐。律令的暴政是其强制性。
+> 另一种不完全的反抗：我可以快乐，也可以不快乐。 _为什么这也是不完整的反抗？_
+
 ### Picture of the week
 ![Like segmented sky](img/window_segmented_sky_flag.jpg)
 > The grid fins on the roof segmented the sky to create a flag.
