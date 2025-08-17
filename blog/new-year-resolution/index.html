@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https:&#x2F;&#x2F;no-to-adhd.github.io">
+
+    
+
+    
+    
+    
+    <title>
+         New Year&#x27;s Resolution (草稿-夸夸篇)
+        
+    </title>
+
+        
+            <meta property="og:title" content="New Year&#x27;s Resolution (草稿-夸夸篇)" />
+        
+     
+
+     
+         
+     
+
+     
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://no-to-adhd.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+        
+            
+            
+
+            <script defer src="/js/imamu.js" data-website-id="7786faed-5552-4755-b75e-3f2ba322f41a" data-host-url="https:&#x2F;&#x2F;api-gateway.umami.dev&#x2F;"></script>
+        
+
+        
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/codeblock.js></script>
+    
+
+    
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="" href="https://no-to-adhd.github.io/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://no-to-adhd.github.io/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://no-to-adhd.github.io/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://no-to-adhd.github.io/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://no-to-adhd.github.io/main.css />
+
+    
+
+    <script src=https://no-to-adhd.github.io/js/mermaid.js></script>
+
+    
+        <script defer src="https://no-to-adhd.github.io/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script></head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        
+            <a href=https:&#x2F;&#x2F;no-to-adhd.github.io></a>
+        
+
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;no-to-adhd" class="social">
+                <img alt=github src=https://no-to-adhd.github.io/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=https://no-to-adhd.github.io style="margin-left: 0.25em">&#x2F;</a>
+        
+            <a href=https://no-to-adhd.github.io/blog style="margin-left: 0.25em">&#x2F;blogs</a>
+        
+            <a href=https://no-to-adhd.github.io/journals style="margin-left: 0.25em">&#x2F;journals</a>
+        
+            <a href=https://no-to-adhd.github.io/tags style="margin-left: 0.25em">&#x2F;tags</a>
+        
+
+        
+        <button 
+            id="search-button"
+            class="search-button"
+            title="$SHORTCUT to open search"
+        >
+            <img 
+                src="https://no-to-adhd.github.io/search.svg" 
+                alt="Search" 
+                class="search-icon"
+            >
+        </button>
+
+        <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+            <div id="modal-content">
+                <h1 id="modalTitle" class="page-header">Search</h1>
+                <div id="searchBar">
+                    <input 
+                        id="searchInput" 
+                        role="combobox" 
+                        autocomplete="off" 
+                        spellcheck="false" 
+                        aria-expanded="false" 
+                        aria-controls="results-container" 
+                        placeholder="Search..."
+                    />
+                    <button 
+                        id="clear-search" 
+                        class="clear-button"
+                        title="Clear search"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="results-container">
+                    <div id="results-info">
+                        <span id="zero_results" style="display: none;">No results</span>
+                        <span id="one_result" style="display: none;">1 result</span>
+                        <span id="many_results" style="display: none;">$NUMBER results</span>
+                    </div>
+                    <div id="results" role="listbox"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+            <a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+                <img src=https://no-to-adhd.github.io/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+                <img src=https://no-to-adhd.github.io/feather/moon.svg id="moon-icon" alt="Dark" />
+            </a>
+
+            <!-- Inititialize the theme toggle icons -->
+            <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        New Year&#x27;s Resolution (草稿-夸夸篇)<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-01-27</time>
+                    
+
+                    
+                        :: Updated on <time>2025-02-15</time>
+                    
+
+                    
+
+                    
+                    
+                            <span class="tags-label"> :: Tags:</span>
+                            <span class="tags">
+                                    <a href="https://no-to-adhd.github.io/tags/plan/" class="post-tag">Plan</a>, 
+                                
+                                    <a href="https://no-to-adhd.github.io/tags/reflection/" class="post-tag">Reflection</a>
+                                
+                            </span>
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <blockquote>
+<p>反省的事时时挂在心头。但知道自己做对了什么或许对改变自己同样重要。</p>
+</blockquote>
+<p>又是一年农历新年。作为中国人的幸运或许就在于总比别人多一点时间去来标记去年的结束，又似乎比别人的时间去思考新年的开始。哪怕这是一种错觉，
+需要他的人也总能从中汲取一些小小的力量。对于今年的我来说：every little bit helps.</p>
+<p>总结2024龙年，或许有几点多少值得夸赞：</p>
+<ul>
+<li>开始积极健身，并把健身当成汲取生活力量的一部分。虽然从2024年11月中开始至今两个半月时间中，我只保持了平均每周1次的健身频率，但至少到2025年1月27日的今天，我坚持日常健身已经超过了半年之久。</li>
+<li>开始积极的了解自己的内心，寻找自己最高效的行为方式，不断优化自己的行为模式。这件事情始于2024年7月底的Panic Attack，但从此之后我渐渐的更用心用力地去了解自己的内心，直视我自己。虽然这期间
+也有不顺利的时候：本科论文项目的蛇尾，2024年11月忙起来之后DSP课程内容的懈怠，12月初亚马逊笔试失败+ DSP大作业同时发生时的焦虑与这期间的低效，12月假期正式开始后长达3周的碌碌无为，凡此等等。
+但这期间也不是没有进步：我开始使用科学的方法记录、认识和管理我的效率，开始理性的认识自己的能力和不足。虽然这一切来的不够快：2025年1月发生了我人生记忆中最大的失败，但也让我痛定思痛，加速改变。
+虽然我理解我的过去让我比我同环境的同龄人更没有自信，更缺乏积累，更一事无成。但时间一次又一次让我重新站上新的起跑线上：这某种意义上也是时间对我们低速生物的仁慈（感官的同时性），亦或许是大脑在进化中给意图自新的人留下的礼物。</li>
+<li>我厘清了我的大理想与小目标的关系：当今社会处在大变化的所有要素不断积累的阶段，而我的目标就是为这些要素的积累添砖加瓦，也同时为个人能力积累薪火，直到变化的来临。我最需要学习的有以下几点：
+<ul>
+<li>在专业领域，有在本专业里超出常人的积累和认识，通过与其他知识的融会贯通拥有比其他人更深刻的<strong>洞见</strong>与<strong>实操能力</strong>。最终的目的是在特定领域有比公开信息更强的积累，判断与直觉。</li>
+<li>在非专业领域，我需要学习：a) 组织能力：这是人最根本的能力。世界上任何人与人的关系都可以抽象为组织：与我目前最相关的是我自己，我的原生家庭，和（梦想中）的新家庭，未来也包括我参与的生产组织。
+如何说服大家共同确立一个合适的愿景，怎么把这个愿景细化成价值观，并确立具体的使命和目标，使用合适的工具完成，是一个非常重要的能力。ISO9000的思想（而非具体规章）似乎是一个可以借鉴的体系。
+b) 社会科学：关于这点，今年看完了《美国困局》以及一部分《东西中国》，通过其他信息渠道关注了国内产业变化和美国大选及其反映出的社会变化，为自己规划未来提供了一些启发。不过相对于我在B站上看时政、知识类内容的时间，学到的东西远远不够。</li>
+<li>身体上：提高自己的力量与耐力。这点践行的不错。</li>
+</ul>
+</li>
+<li>具体技能上，练习和实践了新的双拼打字法（重新学了一次打字）。虽然不一定有实际用处， 但仍然是磨练自己的一种方法。通过十数个个个小时的专注学习对C++有了更专业的理解。</li>
+</ul>
+<p>2025年蛇年，我有以下几点计划：</p>
+<ul>
+<li><input disabled="" type="checkbox"/>
+好好吃饭。</li>
+<li><input disabled="" type="checkbox"/>
+从头到尾完成一项自己以为完不成的CS项目。</li>
+<li><input disabled="" type="checkbox"/>
+保持健身习惯，并维持自己的进步。</li>
+<li><input disabled="" type="checkbox"/>
+持续研究和使用LLM，番茄钟，本网站和一切其他工具，理解，判断，优化自己的生活。</li>
+<li><input disabled="" type="checkbox"/>
+以25岁高龄学习围棋。围棋是一门需要“目光长远不怠惰”的智力运动，是练习我最不擅长的“高复杂度、多维度优化问题”的良方。似乎是与自己开玩笑一样，我的生活或许给了我很多同龄人没有的机会与幸运，但也给了我
+许多同龄人不需要面对的问题；我最擅长的专业细分需要的能力同时也是我不具备的。这一切的一切都需要我跳出我“脑力已经固化”的窠臼，需要我用我用自己的努力和练习恢复、并超越自己的智力/心理边界。</li>
+<li><input disabled="" type="checkbox"/>
+在本网站，每日一小结，每周一大结，在本站上的记录绝不春秋笔法，做到绝对真实。每日留给小结的时间并不多，因此除了日常的记录，最重要的<strong>提升自己观察自己的能力</strong>，每天最有意思、最有启发价值的发现记录在这里。
+每周末完成一个本网站的feature更新，不断完善本站对于本人日程管理的帮助。</li>
+<li><input disabled="" type="checkbox"/>
+学习ISO9000的思想核心，通过本网站积累的数据管理自己，以及或许可以管理别的组织单位。</li>
+</ul>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+            
+        
+
+        
+        <div class="giscus"></div>
+        <script src="https://utteranc.es/client.js"
+        repo="no-to-adhd/no-to-adhd.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        
+    </div>
+</body>
+
+</html>
