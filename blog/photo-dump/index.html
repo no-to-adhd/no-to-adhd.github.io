@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https:&#x2F;&#x2F;no-to-adhd.github.io">
+
+    
+
+    
+    
+    
+    <title>
+         Photo Dump
+        
+    </title>
+
+        
+            <meta property="og:title" content="Photo Dump" />
+        
+     
+
+     
+         
+     
+
+     
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://no-to-adhd.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+        
+            
+            
+
+            <script defer src="/js/imamu.js" data-website-id="7786faed-5552-4755-b75e-3f2ba322f41a" data-host-url="https:&#x2F;&#x2F;api-gateway.umami.dev&#x2F;"></script>
+        
+
+        
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/codeblock.js></script>
+    
+
+    
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="" href="https://no-to-adhd.github.io/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://no-to-adhd.github.io/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://no-to-adhd.github.io/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://no-to-adhd.github.io/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://no-to-adhd.github.io/main.css />
+
+    
+
+    <script src=https://no-to-adhd.github.io/js/mermaid.js></script>
+
+    
+        <script defer src="https://no-to-adhd.github.io/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script></head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        
+            <a href=https:&#x2F;&#x2F;no-to-adhd.github.io></a>
+        
+
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;no-to-adhd" class="social">
+                <img alt=github src=https://no-to-adhd.github.io/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=https://no-to-adhd.github.io style="margin-left: 0.25em">&#x2F;</a>
+        
+            <a href=https://no-to-adhd.github.io/blog style="margin-left: 0.25em">&#x2F;blogs</a>
+        
+            <a href=https://no-to-adhd.github.io/journals style="margin-left: 0.25em">&#x2F;journals</a>
+        
+            <a href=https://no-to-adhd.github.io/tags style="margin-left: 0.25em">&#x2F;tags</a>
+        
+
+        
+        <button 
+            id="search-button"
+            class="search-button"
+            title="$SHORTCUT to open search"
+        >
+            <img 
+                src="https://no-to-adhd.github.io/search.svg" 
+                alt="Search" 
+                class="search-icon"
+            >
+        </button>
+
+        <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+            <div id="modal-content">
+                <h1 id="modalTitle" class="page-header">Search</h1>
+                <div id="searchBar">
+                    <input 
+                        id="searchInput" 
+                        role="combobox" 
+                        autocomplete="off" 
+                        spellcheck="false" 
+                        aria-expanded="false" 
+                        aria-controls="results-container" 
+                        placeholder="Search..."
+                    />
+                    <button 
+                        id="clear-search" 
+                        class="clear-button"
+                        title="Clear search"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="results-container">
+                    <div id="results-info">
+                        <span id="zero_results" style="display: none;">No results</span>
+                        <span id="one_result" style="display: none;">1 result</span>
+                        <span id="many_results" style="display: none;">$NUMBER results</span>
+                    </div>
+                    <div id="results" role="listbox"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+            <a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+                <img src=https://no-to-adhd.github.io/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+                <img src=https://no-to-adhd.github.io/feather/moon.svg id="moon-icon" alt="Dark" />
+            </a>
+
+            <!-- Inititialize the theme toggle icons -->
+            <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Photo Dump<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-03-10</time>
+                    
+
+                    
+                        :: Updated on <time>2025-03-19</time>
+                    
+
+                    
+
+                    
+                    
+                            <span class="tags-label"> :: Tags:</span>
+                            <span class="tags">
+                                    <a href="https://no-to-adhd.github.io/tags/reflection/" class="post-tag">Reflection</a>, 
+                                
+                                    <a href="https://no-to-adhd.github.io/tags/creative/" class="post-tag">Creative</a>
+                                
+                            </span>
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>Even though I've already wished my viewers happy Women's Day on my journal entry
+on 08-03-2025, for those of you who haven't seen it,</p>
+<blockquote>
+<p>Happy Women's Day again! I wish you all infinite fulfilment and accomplishment ahead.</p>
+</blockquote>
+<h3 id="photo-dump">Photo Dump?</h3>
+<p>I've decided to dump some photos here. Treat it as a form of cloud storage (after losing an
+afternoon's worth of data (of my most active day I can remember)) I've decided to dump my
+photos whenever I see fit. People training ML on data published on GitHub (e.g. Microsoft)
+can probably use it as you will.</p>
+<h5 id="tate-modern-event">Tate Modern Event</h5>
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;tate-special-exhibition-3.png" alt="The first image">
+    <img src="&#x2F;img&#x2F;tate-special-exhibition-4.png" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<p><img src="/img/tate-special-exhibition-2.png" alt="tate_modern" />
+<img src="/img/tate-special-exhibition.png" alt="tate_modern" /></p>
+<blockquote>
+<p>Cool event at Tate Modern until 2025-04-27, plans for my next trip to London 🚂✅</p>
+</blockquote>
+<h3 id="concert-south-bank-2025-03-01">Concert @ South Bank (2025-03-01)</h3>
+<blockquote>
+<p>Tchaikovsky Violin Concerto!!!! My favourite violin piece of all time.<br />
+NGL, after what happened this year, the music just hits so differently now.</p>
+<p>And just when you thought it couldn't get better, there's Mahler!! Though, boy,
+Mahler has definitely gone through some serious depression/anxiety episodes to have
+written what I've heard. Sound exactly like the noise in my ear last year... For
+those of you who don't know what's it like to have an anxiety attack from my perspective,
+listen to this and you'll know.</p>
+</blockquote>
+<p><img src="/img/concert.jpg" alt="tchaikovsky" /></p>
+<div style="width: 100%; min-width: 400px; max-width: 800px;">
+<div style="position: relative; width: 100%; overflow: hidden; padding-top: 56.25%;">
+<p>
+<iframe style="position: absolute; top:0; left:0; right:0; width:100%; height:100%;" src="https://www.youtube.com/embed/PbuYRyv6v80"; title="YouTube video player" frameborder="0" allow="accelerometer; ?autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+</div>
+</div>
+<h3 id="pretty-photos">Pretty Photos</h3>
+<p><img src="/img/cloud.jpg" alt="cloud" /></p>
+<blockquote>
+<p>上次落选的彩云。</p>
+</blockquote>
+<p><img src="/img/guotaimingan.jpg" alt="guotaimingan" /></p>
+<blockquote>
+<p>国泰民安！</p>
+</blockquote>
+<p><img src="/img/castle_cloud.png" alt="castle_cloud" /></p>
+<blockquote>
+<p>I've always loved big, chunky clouds on a clear sky, the interplay of light
+and shadow and everything nice associated with it.</p>
+</blockquote>
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;gate_i_never_crossed.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;the_palace.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<blockquote>
+<p>Crossing a gate I never did before.</p>
+</blockquote>
+<p><img src="/img/st_james_park.jpg" alt="st_james_park" /></p>
+<blockquote>
+<p>First time at St James's Park. I wish I was there earlier.</p>
+</blockquote>
+<p><img src="/img/couple_in_the_park.jpg" alt="st_james_park_couple" /></p>
+<blockquote>
+<p>I feel super lucky being able to get this shot. Just the right time
+at just the right place. Although the raw file with the original shot is gone
+with my old phone... I guess checkout Instagram for a better quality capture
+😮‍💨</p>
+</blockquote>
+<p><img src="/img/red_flower.jpg" alt="红花" /></p>
+<blockquote>
+<p>Just in front of the St James's Park tube station lies a tiny flower bed.
+For some reason this shot looks oddly familiar... Feels like I've seen it somewhere.</p>
+</blockquote>
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;tree_n_moon.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;tree_1.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<blockquote>
+<p>含苞待放的秃枝伸手抓冬天的月亮。<br />
+世界上应该不止我一个人喜欢这样的照片。</p>
+</blockquote>
+<p><img src="/img/tree_2.jpg" alt="tree" /></p>
+<blockquote>
+<p>仔细看应该能看到枝头红色的嫩芽吧。</p>
+</blockquote>
+<p><img src="/img/orchid.jpg" alt="orchid" /></p>
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;daffodil.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;tulip.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<blockquote>
+<p>拍给我妈妈看的花。</p>
+</blockquote>
+<p><img src="/img/couple_in_the_tube.jpg" alt="couples_1" /></p>
+<blockquote>
+<p>满意的构图</p>
+</blockquote>
+<p><img src="/img/couple_in_the_tube_2.jpg" alt="couples_2" /></p>
+<blockquote>
+<p>有意思的构图</p>
+</blockquote>
+<p><img src="/img/st_james_park_2.jpg" alt="st_james_park_2" /></p>
+<blockquote>
+<p>St James's Park #2</p>
+</blockquote>
+<p><img src="/img/favourite_place.jpg" alt="Blackfriars Bridge" /></p>
+<blockquote>
+<p>Probably my favourite place in all of London.</p>
+</blockquote>
+<p><img src="/img/old_place.jpg" alt="that_old_bridge" /></p>
+<blockquote>
+<p>故地重游</p>
+</blockquote>
+<p><img src="/img/night-sky-03-08.jpg" alt="dusk" /></p>
+<blockquote>
+<p>One the last remaining images from my phone before it decides to commit suicide😭
+I had such a good shot with the sunset captured in the reflections from a window.
+Maybe just imagine what that's like~</p>
+</blockquote>
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;pattern.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;shadow.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<blockquote>
+<p>光影</p>
+</blockquote>
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;trinity.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;leaves.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<blockquote>
+<p>That one afternoon I sneaked into Trinity</p>
+</blockquote>
+<p><img src="/img/cozy_corner.jpg" alt="cozy_corner" /></p>
+<blockquote>
+<p>我温暖的窝。</p>
+</blockquote>
+<h3 id="a-week-in-review">A Week in Review</h3>
+<p>Check out my journal for 2025-03-08. I loved how I spent second half of the week.</p>
+<hr />
+<h3 id="more-photos">More photos</h3>
+<p><img src="/img/hc_logs.jpg" alt="hc_logs" />
+<img src="/img/hc_leaves.jpg" alt="hc_leaves" /></p>
+<blockquote>
+<p>Tree logs and leaves in Harvey Court under the afternoon sun.</p>
+</blockquote>
+<p><img src="/img/mcr.jpg" alt="mcr" /></p>
+<blockquote>
+<p>The red room under the midday sun.<br />
+The smell of leather and fabric warmed
+up by the warm sunlight, shadows and reflections off the red carpet. Empty
+room with lots of good company. It's just the perfect place for a nap, and
+5 minutes of peace.</p>
+</blockquote>
+<p><img src="/img/trump_face.jpg" alt="trump_face" /></p>
+<blockquote>
+<p>Trump's face</p>
+</blockquote>
+<p><img src="/img/peach_flower.jpg" alt="peach_flower" /></p>
+<blockquote>
+<p>桃花？</p>
+</blockquote>
+<p><img src="/img/girl_in_flowers.jpg" alt="girl_in_flowers" /></p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+            
+        
+
+        
+    </div>
+</body>
+
+</html>

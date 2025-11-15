@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https:&#x2F;&#x2F;no-to-adhd.github.io">
+
+    
+
+    
+    
+    
+    <title>
+         A Months in the Woods (And I think I&#x27;m out)
+        
+    </title>
+
+        
+            <meta property="og:title" content="A Months in the Woods (And I think I&#x27;m out)" />
+        
+     
+
+     
+         
+     
+
+     
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://no-to-adhd.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+        
+            
+            
+
+            <script defer src="/js/imamu.js" data-website-id="7786faed-5552-4755-b75e-3f2ba322f41a" data-host-url="https:&#x2F;&#x2F;api-gateway.umami.dev&#x2F;"></script>
+        
+
+        
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/codeblock.js></script>
+    
+
+    
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="" href="https://no-to-adhd.github.io/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://no-to-adhd.github.io/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://no-to-adhd.github.io/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://no-to-adhd.github.io/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://no-to-adhd.github.io/main.css />
+
+    
+
+    <script src=https://no-to-adhd.github.io/js/mermaid.js></script>
+
+    
+        <script defer src="https://no-to-adhd.github.io/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script></head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        
+            <a href=https:&#x2F;&#x2F;no-to-adhd.github.io></a>
+        
+
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;no-to-adhd" class="social">
+                <img alt=github src=https://no-to-adhd.github.io/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=https://no-to-adhd.github.io style="margin-left: 0.25em">&#x2F;</a>
+        
+            <a href=https://no-to-adhd.github.io/blog style="margin-left: 0.25em">&#x2F;blogs</a>
+        
+            <a href=https://no-to-adhd.github.io/journals style="margin-left: 0.25em">&#x2F;journals</a>
+        
+            <a href=https://no-to-adhd.github.io/tags style="margin-left: 0.25em">&#x2F;tags</a>
+        
+
+        
+        <button 
+            id="search-button"
+            class="search-button"
+            title="$SHORTCUT to open search"
+        >
+            <img 
+                src="https://no-to-adhd.github.io/search.svg" 
+                alt="Search" 
+                class="search-icon"
+            >
+        </button>
+
+        <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+            <div id="modal-content">
+                <h1 id="modalTitle" class="page-header">Search</h1>
+                <div id="searchBar">
+                    <input 
+                        id="searchInput" 
+                        role="combobox" 
+                        autocomplete="off" 
+                        spellcheck="false" 
+                        aria-expanded="false" 
+                        aria-controls="results-container" 
+                        placeholder="Search..."
+                    />
+                    <button 
+                        id="clear-search" 
+                        class="clear-button"
+                        title="Clear search"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="results-container">
+                    <div id="results-info">
+                        <span id="zero_results" style="display: none;">No results</span>
+                        <span id="one_result" style="display: none;">1 result</span>
+                        <span id="many_results" style="display: none;">$NUMBER results</span>
+                    </div>
+                    <div id="results" role="listbox"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+            <a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+                <img src=https://no-to-adhd.github.io/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+                <img src=https://no-to-adhd.github.io/feather/moon.svg id="moon-icon" alt="Dark" />
+            </a>
+
+            <!-- Inititialize the theme toggle icons -->
+            <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        A Months in the Woods (And I think I&#x27;m out)<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-02-25</time>
+                    
+
+                    
+                        :: Updated on <time>2025-02-27</time>
+                    
+
+                    
+
+                    
+                    
+                            <span class="tags-label"> :: Tags:</span>
+                            <span class="tags">
+                                    <a href="https://no-to-adhd.github.io/tags/reflection/" class="post-tag">Reflection</a>, 
+                                
+                                    <a href="https://no-to-adhd.github.io/tags/plan/" class="post-tag">Plan</a>
+                                
+                            </span>
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>It has been a heck of a month.</p>
+<p>I guess I've always been an extrovert, but it took me all these years make that
+connection back. I've always enjoyed good company, I enjoy being surrounded by
+friends, doing cool or silly things together. I have perhaps, lost that when I
+set foot in Singapore, feeling lost and excluded (I was also excluding them
+because, back then at a boy school, the kids were <strong>LOUD</strong> af and they kinda
+bother the 16 year old me). But the lost of that crucial connection, the
+disparity between then and the time when I must have befriended at least half
+the guys and a quarter of the girls in my class back in China, made me sad,
+lost and lonely. I guess I was also bothered (at the time) by the fact that I
+cannot get the unique attention of friends now that they're moving on with
+their lives in separate ways, that I cannot take more of their time, which
+thinking back, makes me want to pat that little version of me.</p>
+<p>Fast forward to uni, that feeling got stuck with me. I'm glad that I've been
+reached by people who cared enough to reach out to me, and by no surprise
+those were the people who lived with me in the the household in student
+accomodation. They are, a lively and noisy bunch. "Immature", I thought, not
+knowing that, years later, I'd realize I'm the immature one, who's been
+troubled by my traumas in my earlier years and never managed to walk out of it,
+and they are the ones who were either smart enough to walk out of them
+earlier by themselves, or fortunate enough to have never been through those
+in the first place. In one way or another, I missed out on meeting them,
+and increasingly so as I moved to my own excluded household on the outskirt
+of the city in my second year.</p>
+<p>I thank my friends for not leaving me after all those years being slightly
+disconnected from them. I avoided going to sesh with them, avoided drinking
+most of the time, and that has led me to my fear that I'm perhaps no longer
+welcomed back to the group now that I failed to spend enough time with them.
+And I'm so glad I was wrong. I'm almost dumbfounded by just how much support
+and care I've received from all kinds of different friends over the course of
+the last month. I never knew I had such a wonderful support system, I've always
+felt just a little bit distant. But the moment I reached out to them, I can
+feel that support system spinning up like a GPU cluster training a 1 trillion
+parameter model. And damn that system is powerful. (And I did not know I've got
+all that many GPUs in that cluster!!! Some V100s from years back in secondary
+school, A100s from in high school, many more from Uni, whom I didn't even know
+would help me to that extent when I approached them.)</p>
+<p>Right now, I feel like I'm at a point in life where, I'm happy just by myself.
+I guess a lover's company could make it better, but I don't feel miserable
+without it. And that's such a departure from my experience going through a
+withering long distance relationship over the winter just prior to the break
+up, when I could feel the tension and insecurity building up inside me.</p>
+<p>"Independence is somewhat overrated, it's a concept cherished by teenagers who
+were too old to do what kids do, and too young to do what adults do", a quote
+by Scott Geller from a recent video I watched (which turned out to be useful).
+"Adults look for inter-dependence, where you build yourself a community". Now
+I feel like I'm in one, and more than that, I can manage, build and maintain
+a corpus on my own.</p>
+<p>I guess I'd thank my friend for their company in this single strangest month
+of my life, a month in which, I went through so much, and life has changed
+in so many ways, that it'll be hard to look back.</p>
+<h3 id="photo-dump-of-the-month">Photo dump of the month</h3>
+<p><img src="/img/boat_man.jpg" alt="img" />
+<img src="/img/long_and_winding_rd.jpg" alt="img" />
+<img src="/img/cny_dinner.jpg" alt="img" />
+<img src="/img/2025%E5%B9%B4%E5%85%83%E5%AE%B5ACS%E5%90%8C%E5%AD%A6%E8%81%9A%E4%BC%9A.png" alt="img" />
+<img src="/img/concert-02-18.jpg" alt="img" />
+<img src="/img/feb-17-morning.jpg" alt="img" />
+<img src="/img/garden-02-18.jpg" alt="img" />
+<img src="/img/harvey_court.jpg" alt="img" />
+<img src="/img/lunch_garden.jpg" alt="img" />
+<img src="/img/working_on_balcony.jpg" alt="img" />
+<img src="/img/department_sun.png" alt="img" /></p>
+<p><div class="grid-container">
+    <img src="&#x2F;img&#x2F;cat.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;library.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;king_sun.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;kg_chapel_building.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;compsci_dinner.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;sala_thong.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;feb-17-moss.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;feb-17-glass.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="grid-container">
+    <img src="&#x2F;img&#x2F;with_jt.jpg" alt="The first image">
+    <img src="&#x2F;img&#x2F;with_wy.jpg" alt="The second image">
+</div>
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列等宽 */
+  gap: 20px;
+  margin: 2rem 0;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* 移动端响应式 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</p>
+<p><img src="/img/kg_chapel.jpg" alt="img" /></p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+            
+        
+
+        
+    </div>
+</body>
+
+</html>

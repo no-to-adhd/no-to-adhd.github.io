@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https:&#x2F;&#x2F;no-to-adhd.github.io">
+
+    
+
+    
+    
+    
+    <title>
+         Career Consultation (全文干货)
+        
+    </title>
+
+        
+            <meta property="og:title" content="Career Consultation (全文干货)" />
+        
+     
+
+     
+         
+     
+
+     
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://no-to-adhd.github.io/fonts.css rel="stylesheet" />
+    
+
+    
+    
+        
+            
+            
+
+            <script defer src="/js/imamu.js" data-website-id="7786faed-5552-4755-b75e-3f2ba322f41a" data-host-url="https:&#x2F;&#x2F;api-gateway.umami.dev&#x2F;"></script>
+        
+
+        
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/codeblock.js></script>
+    
+
+    
+    
+
+    
+    
+        <script src=https://no-to-adhd.github.io/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="" href="https://no-to-adhd.github.io/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://no-to-adhd.github.io/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://no-to-adhd.github.io/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://no-to-adhd.github.io/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://no-to-adhd.github.io/main.css />
+
+    
+
+    <script src=https://no-to-adhd.github.io/js/mermaid.js></script>
+
+    
+        <script defer src="https://no-to-adhd.github.io/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script></head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        
+            <a href=https:&#x2F;&#x2F;no-to-adhd.github.io></a>
+        
+
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;no-to-adhd" class="social">
+                <img alt=github src=https://no-to-adhd.github.io/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+            <a href=https://no-to-adhd.github.io style="margin-left: 0.25em">&#x2F;</a>
+        
+            <a href=https://no-to-adhd.github.io/blog style="margin-left: 0.25em">&#x2F;blogs</a>
+        
+            <a href=https://no-to-adhd.github.io/journals style="margin-left: 0.25em">&#x2F;journals</a>
+        
+            <a href=https://no-to-adhd.github.io/tags style="margin-left: 0.25em">&#x2F;tags</a>
+        
+
+        
+        <button 
+            id="search-button"
+            class="search-button"
+            title="$SHORTCUT to open search"
+        >
+            <img 
+                src="https://no-to-adhd.github.io/search.svg" 
+                alt="Search" 
+                class="search-icon"
+            >
+        </button>
+
+        <div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+            <div id="modal-content">
+                <h1 id="modalTitle" class="page-header">Search</h1>
+                <div id="searchBar">
+                    <input 
+                        id="searchInput" 
+                        role="combobox" 
+                        autocomplete="off" 
+                        spellcheck="false" 
+                        aria-expanded="false" 
+                        aria-controls="results-container" 
+                        placeholder="Search..."
+                    />
+                    <button 
+                        id="clear-search" 
+                        class="clear-button"
+                        title="Clear search"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                        </svg>
+                    </button>
+                </div>
+                <div id="results-container">
+                    <div id="results-info">
+                        <span id="zero_results" style="display: none;">No results</span>
+                        <span id="one_result" style="display: none;">1 result</span>
+                        <span id="many_results" style="display: none;">$NUMBER results</span>
+                    </div>
+                    <div id="results" role="listbox"></div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+            <a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+                <img src=https://no-to-adhd.github.io/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+                <img src=https://no-to-adhd.github.io/feather/moon.svg id="moon-icon" alt="Dark" />
+            </a>
+
+            <!-- Inititialize the theme toggle icons -->
+            <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Career Consultation (全文干货)<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-01-29</time>
+                    
+
+                    
+                        :: Updated on <time>2025-01-29</time>
+                    
+
+                    
+
+                    
+                    
+                            <span class="tags-label"> :: Tags:</span>
+                            <span class="tags">
+                                    <a href="https://no-to-adhd.github.io/tags/plan/" class="post-tag">Plan</a>, 
+                                
+                                    <a href="https://no-to-adhd.github.io/tags/career/" class="post-tag">Career</a>
+                                
+                            </span>
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>According to the career officer, in the UK</p>
+<blockquote>
+<p>70%+ of the open roles are not publically advertised!!!</p>
+</blockquote>
+<p>This day just never seized to amaze me. This career consultation has given me
+the most clarity on the matter I've had so far. It could just be that I've
+never taken concrete steps looking into this matter, but I'm really glad that I
+was brave enough and went for it the moment the opportunity arise.</p>
+<p>Here are some of the (totally unorganized) takeaways from this 45 minutes session:</p>
+<h3 id="application-seasons">Application Seasons</h3>
+<p>There are in general, two types of applications:</p>
+<ul>
+<li><em>Graduate Schemes</em>, which opens from September to Early December.</li>
+<li><em>Open Positions</em>, which opens ~4 months before the start date.</li>
+</ul>
+<h3 id="how-to-know-if-certain-qualification-is-needed">How to Know if Certain Qualification is Needed</h3>
+<p>The most statisitcally sound way is to look through the data. LinkedIn is a good
+place to start.</p>
+<h4 id="statisitcal-evaluation">Statisitcal Evaluation</h4>
+<ul>
+<li>Go on LinkedIn and search for alumnis who are working in the field of interest,
+especially if they remain in the field some time after graduation (usually
+this means that they've progressed into a senior/managerial role).</li>
+<li>Look for the qualifications they have who's working in the target organizations
+in the field of interest. Make a tally and compute the percentage.</li>
+<li>Reach out to at least 3 people who fit our profile for a quick interview:
+<ul>
+<li>To reach out: draft the initial contact with the following components
+<ul>
+<li>Intrigued by your work</li>
+<li>Cambridge integrated masters student in the final year of studies</li>
+<li>Parallel with my experience/interests</li>
+<li>Ask if they might be open to a 10 minutes conversation on Zoom or similar</li>
+<li>Usually about 25% to 20% of people would reply.</li>
+</ul>
+</li>
+<li>For the interview
+<ul>
+<li>Ask about their transition from Uni to Industry</li>
+<li>Ask about the impact of their work and their views of the career in the industry</li>
+<li>Ask for the entry point requirement in the industry</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="drawing-connections-target-organizations-and-job-titles">Drawing Connections, Target Organizations and Job Titles</h4>
+<p>Using the alumni accounts collected above, focus on profiles which attracted
+your attention, especially ones who's career looks very interesting to you,
+collect the stats of their career, with a focus on their past experience,
+connected organizations, and job titles. This will form the basis of jobs
+that you will apply for.</p>
+<h3 id="undisclosed-job-opportunities">Undisclosed Job Opportunities</h3>
+<p><em><strong>More than 70% of the job opportunities are not publically advertised.</strong></em></p>
+<p>In order to be know the existence of these roles, and to then be able to
+apply for them, essentially repeat the interview process in <a href="https://no-to-adhd.github.io/blog/career-consultation/#statisitcal-evaluation">Stat Evaluation</a>.</p>
+<p>However, a few tweaks are required:</p>
+<ul>
+<li>Same email (message) format</li>
+<li>Target mid-management (team leader, project lead etc.) People who have contact on the
+ground but also managerial position and powers.</li>
+<li>Ask the same questions, but for the last 3 minutes, ask:
+<ul>
+<li>Thank you for the information. Are there any opportunities where I can get some
+more practical exposures? (If affirmative, may get job shadowing, etc.)</li>
+<li>Thank you! Do you think there's someone else I can perhaps talk to who has
+more information and insights? (In this case, the person would be offering
+his/her networking + their selection process).</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-to-process-the-job-requirements">How to Process the Job Requirements</h3>
+<ul>
+<li>Usually, one should be happy if you fit around 60% or more of the requirements.
+The requirements listed are usually</li>
+<li>Apply for roles even if they ask for work experience. As a fresh grad, so long
+as they don't ask for 3-5 years of experience, it is usually a good idea to apply.</li>
+<li><em><strong>ALWAYS</strong></em> apply for internship when possible. Internships are big organization's
+internal procress to create and manage their talent pipeline, so it provides
+more opportunities, and is also a safer choice for these organisations than
+grad-hires based on 1-hour interviews. Even if the organization states that
+they only hire penultimate years, essentially ignore this requirement and apply
+anyways. If you create values for the organization in the first place, then
+there's no reason why they won't hire you afterwards.</li>
+<li>Collect the stats of all the requirements of roles you're interested in, and
+make sure to prepare for the top 5 most common requirements to maximise your chances.</li>
+</ul>
+<h3 id="career-advancement-tips">Career Advancement Tips</h3>
+<ul>
+<li>Your first job matters to a certain extend, but is often overestimated by the student population</li>
+<li>In the early career (first 2-3 years) people are expected to move around.</li>
+<li>So long as you've landed a mid-tier organization with the right context,
+career progression is still very much possible.</li>
+<li>To get into certain top-tier organizations (your dream organization so to
+speak), you should aim to get into these organizations within 3-4 years after
+graduation. After that it would be a lot harder to progress in terms of the
+tier of organization you're in.</li>
+</ul>
+<h3 id="timeline">Timeline</h3>
+<p><code>TODO: make a diagram for this</code></p>
+<ol>
+<li>Starting from late Jan - Mid Feb: collect stats from LinkedIn as in <a href="https://no-to-adhd.github.io/blog/career-consultation/#statisitcal-evaluation">Stat Evaluation</a></li>
+<li>Starting from Mid Feb - March 1st: arrange interviews</li>
+<li>March 1st onwards: apply for those open roles!!!</li>
+</ol>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+            
+        
+
+        
+        <div class="giscus"></div>
+        <script src="https://utteranc.es/client.js"
+        repo="no-to-adhd/no-to-adhd.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+</script>
+
+        
+    </div>
+</body>
+
+</html>
